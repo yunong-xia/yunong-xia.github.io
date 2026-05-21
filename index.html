@@ -1,36 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Yunong Xia</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/2122e04589.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yunong Xia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <body>
+<body>
+  <header>
+    <div class="container header-content">
+      <img src="images/profile.jpg" alt="Profile photo" class="profile-img" />
 
-
-    <div class="wrapper">
-      <div class="left">
-        <img class="profile-picture" src="img/profile.jpeg" width = "200" />
+      <div>
         <h1>Yunong Xia</h1>
-        <h4>CS Student</h4>
-      </div>
-
-      <div class="right">
-        <p class="bio">
-          Welcome to my website! I am a junior student in University of Minnesota-Twin City
-          studying computer science. I am interested in Bioinformatics and Computational Methods.
+        <p class="subtitle">PhD Student in Computational Oncology</p>
+        <p>
+          I study tumor copy-number evolution, somatic copy-number aberrations,
+          and computational methods for understanding cancer progression.
         </p>
 
-        <ul class="social-links">
-          <li><a href="https://github.com/yunong-xia"><i class="fab fa-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/yunong-xia-37735717b/"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
+        <p class="links">
+          <a href="files/cv.pdf">CV</a>
+          <a href="https://github.com/yunong-xia">GitHub</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a PhD student working on computational oncology, with a focus on
+        tumor copy-number evolution, SCNA timing, and multi-sample tumor
+        evolution inference.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Somatic copy-number aberrations</li>
+        <li>Tumor evolution and metastasis</li>
+        <li>Computational oncology</li>
+        <li>Machine learning for cancer genomics</li>
+        <li>Statistical modeling of copy-number evolution</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>SPUR</h3>
+        <p>
+          A computational framework for inferring copy-number evolution routes
+          from multi-sample tumor sequencing data.
+        </p>
+        <a href="https://github.com/SunPathLab/SPUR">View on GitHub</a>
       </div>
 
+      <div class="card">
+        <h3>SCNA Evolution in Tumor Progression</h3>
+        <p>
+          Analysis of between-site copy-number heterogeneity and mixed
+          gain-loss evolutionary routes in cancer genomes.
+        </p>
+      </div>
+    </section>
 
-    </div>
-  </body>
+    <section>
+      <h2>Publications</h2>
+
+      <div class="publication">
+        <p>
+          <strong>Evolving copy number gains promote tumor expansion and bolster mutational diversification.</strong><br />
+          Nature Communications, 2024.
+        </p>
+        <a href="https://doi.org/10.1038/s41467-024-46414-5">Paper</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:your_email@umn.edu">your_email@umn.edu</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Yunong Xia</p>
+  </footer>
+</body>
 </html>
